@@ -1,0 +1,239 @@
+@charset "utf-8";
+
+    /*全体CSS*/
+    p,h2,h3,h4,body,ul {
+        padding: 0;
+        margin: 0;
+    }
+    body {
+        background-color:#dcdcdc;
+    }
+    #about{
+        width: 100%;
+        box-sizing: border-box;
+        margin: 13vh auto 7vh ;
+        padding: 0 9vw 0 9vw; 
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+    }
+    #works,#contact {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 10vh auto 7vh ;
+        padding: 0 9vw 0 9vw; 
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+    }
+
+    /*font*/
+    .header_title {
+        font-size: 1.3vw;
+        font-weight: 500;
+        line-height: 140%;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: black;
+    }
+    .title {
+        font-size: 1.8vw;
+        font-weight: 500;
+        line-height: 140%;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: black;
+        text-align: left;
+    }
+    .name {
+        font-size: 1.7vw;
+        font-weight: 500;
+        line-height: 140%;
+        letter-spacing: 0.1em;
+    }
+    h4 {
+        font-size: 1vw;
+    }
+    h2 {
+        font-size: 1.4vw;
+    }
+    p,span{
+        line-height: 190%;
+        font-size: 1vw;
+    } 
+
+
+
+
+    /*headerCSS*/
+    .header {
+        width: 100%;
+        top: 6vh;
+        right: 0;
+        left: 0;
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 9vw 0 9vw; 
+        position: fixed;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .header_nav_ul {
+        display: flex;
+        flex-direction: row;
+        gap: 2.7vw;
+        list-style: none;
+    }
+
+    /*aboutCSS*/
+    .about_wrap {
+        display: flex;
+        flex-direction: column;
+        gap: 6vh;
+    }
+    .about_info_wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .about_img {
+        object-fit: cover;
+        width: 40%;
+        height: auto;
+    }
+    .about_text {
+        width: 100%;
+        margin-top: 4vh;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5vw;
+    }
+    .about_nav {
+        display:flex ;
+        flex-direction: row;
+        gap: 1.2vw;
+    }
+    .about_slash {
+        opacity: 0.6;
+        pointer-events: none;
+    }
+    .skill {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .skill_wrap {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5vh;
+    }
+    .skill_wrap img {
+        aspect-ratio: 1/1;
+        width:30%;
+        height: auto;
+    }
+
+
+    /*worksCSS*/
+    .works_wrap {
+        display: flex;
+        flex-direction: column;
+        gap: 10vh;
+    }
+    .media {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        gap: 8vw;
+    }
+    @media screen and (min-width: 1024px) {
+    .media:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+}
+    .media img {
+        object-fit: cover;
+        width: 40%;
+        height: auto;
+    }
+    .media_text {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5vh;
+    }
+
+    /*contactCSS*/
+    #contact div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*footerCSS*/
+    footer {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 13vh auto 7vh ;
+        padding: 0 9vw 0 9vw; 
+        text-align: center;
+    }
+
+
+
+@media screen and (max-width: 1023px) {
+
+
+    /*headerCSS*/
+    .header_nav_ul {
+        display: flex;
+        flex-direction: column;
+        gap: 0.9vh;
+        list-style: none;
+    }
+
+    /*aboutCSS*/
+    .about_wrap {
+        gap: 4vh;
+    }
+    .about_info_wrap {
+        flex-direction: column;
+        gap: 4vh;
+    }
+    .about_img {
+        width: 100%;
+    }
+    .about_text {
+        margin-top: 2vh;
+        gap: 1vh;
+    }
+    .skill_wrap {
+        gap: 1vh;
+    }
+
+    /*worksCSS*/
+    .works_wrap {
+        gap: 6vh;
+    }
+    .media {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3vh;
+    }
+    .media img {
+        width: 100%;
+    }
+    /*contactCSS*/
+
+    /*footerCSS*/
+    footer {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 13vh auto 2vh;
+        padding: 0 9vw 0 9vw; 
+    }
+}
