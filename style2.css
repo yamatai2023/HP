@@ -97,7 +97,7 @@
     .about_info_wrap {
         display: flex;
         flex-direction: row;
-        gap: 9vw;
+        gap: 5vw;
     }
     .about_img {
         object-fit: cover;
