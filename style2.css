@@ -189,21 +189,24 @@
 
 /*font*/
 .header_title {
-    font-size: 2.6vw;
+    font-size: 0.65rem;
 }
 .title {
-    font-size: 2.6vw;
+    font-size: 0.65rem;
 
 }
 .name {
-    font-size: 3vw;
+    font-size: 0.75rem;
 }
 h4 {
-    font-size: 2vw;
+    font-size: 0.5rem;
 }
 h2 {
-    font-size: 2.3vw;
+    font-size: 0.575rem;
 }
+p,span{
+    font-size: 0.5rem;
+} 
 
     /*headerCSS*/
     .header_nav_ul {
