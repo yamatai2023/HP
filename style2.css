@@ -47,7 +47,7 @@
         text-align: left;
     }
     .name {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         font-weight: 500;
         line-height: 140%;
         letter-spacing: 0.1em;
@@ -56,7 +56,7 @@
         font-size: 1rem;
     }
     h2 {
-        font-size: 1rem;
+        font-size: 1.15rem;
     }
     p,span{
         line-height: 190%;
@@ -97,7 +97,7 @@
     .about_info_wrap {
         display: flex;
         flex-direction: row;
-        gap: 5vw;
+        gap: 8vw;
     }
     .about_img {
         object-fit: cover;
@@ -177,7 +177,7 @@
     footer {
         width: 100%;
         box-sizing: border-box;
-        margin: 13vh auto 7vh ;
+        margin: 13vh auto 0 ;
         padding: 0 9vw 0 9vw; 
         text-align: center;
     }
