@@ -133,7 +133,7 @@
         justify-content: space-evenly;
     }
     .skill_wrap {
-        width: 30%;
+        width: 35%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -141,7 +141,7 @@
     }
     .skill_wrap img {
         aspect-ratio: 1/1;
-        width:30%;
+        width:25%;
         height: auto;
     }
 
@@ -194,21 +194,21 @@
 @media screen and (max-width: 1023px) {
 
 /*font*/
-    .header_title {
-        font-size: 1.6rem;
-    }
-    .title {
-        font-size: 1.8rem;
-    }
-    .name {
-        font-size: 2.3rem;
-    }
-    h3 {
-        font-size: 1.8rem;
-    }
-    p,span{
-        font-size: 1.5rem;
-    } 
+.header_title {
+    font-size: 1.6rem;
+}
+.title {
+    font-size: 1.8rem;
+}
+.name {
+    font-size: 2.3rem;
+}
+h3 {
+    font-size: 1.8rem;
+}
+p,span{
+    font-size: 1.5rem;
+} 
 
     /*headerCSS*/
     .header_nav_ul {
